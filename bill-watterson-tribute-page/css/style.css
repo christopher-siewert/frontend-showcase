@@ -1,0 +1,18 @@
+body {
+  margin-top: 60px;
+  background-color: #EDFFEE;
+}
+
+.small-img {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+blockquote {
+  background-color: #F9FFF9;
+}
+
+.footer {
+  font-size: 20px;
+}

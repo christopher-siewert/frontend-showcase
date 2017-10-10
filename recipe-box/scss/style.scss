@@ -1,0 +1,24 @@
+$back-color: #ffb76b;
+
+body {
+  background-color: $back-color;
+}
+
+h2 {
+  text-align: center;
+}
+
+#app {
+  width: 70%;
+  margin: 50px auto auto auto;
+  height: 100%;
+}
+.collapsible-body {
+  background-color: white
+}
+.delete:hover {
+  background-color: #ba2525;
+}
+.edit:hover {
+  background-color: #ccff99;
+}
