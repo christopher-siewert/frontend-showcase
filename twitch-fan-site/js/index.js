@@ -54,5 +54,4 @@ $.getJSON("https://gist.githubusercontent.com/QuincyLarson/2ff6892f948d0b7118a99
       }
     }
   });
-
 });
