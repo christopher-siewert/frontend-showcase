@@ -1,0 +1,55 @@
+.flex-container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-align-items: center;
+  align-items: center;
+  max-width: 420px;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#turn {
+  font-size: 25px;
+  text-align: center;
+  margin: 30px auto 30px auto;
+}
+.button {
+  width: 120px;
+  height: 120px;
+}
+.button:hover, #strict {
+  cursor: pointer;
+}
+.menu {
+  width: 120px;
+  height: 120px;
+  text-align:center;
+}
+#start {
+  background-color: white;
+  color: black;
+}
+#count {
+  margin-top: 12px;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+#strict {
+  background-color: white;
+  color: black;
+  font-size: 8px;
+}
+#red {
+  background-color: #880000;
+}
+#blue {
+  background-color: #000044
+}
+#yellow {
+  background-color: #999900
+}
+#green {
+  background-color: #003300;
+}

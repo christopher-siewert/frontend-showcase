@@ -1,0 +1,19 @@
+$text: center;
+$color: 234deg, #4f5dff, #99a1ff;
+
+body {
+  background: linear-gradient($color);
+}
+h1 {
+  text-align: $text
+}
+#app {
+  max-width: 70%;
+  margin: auto;
+  background-color: white;
+  padding: 10px;
+}
+.button:hover {
+  background-color: #99a1ff;
+  cursor: pointer;
+}

@@ -1,0 +1,53 @@
+  .container {
+  margin-top: 20px;
+  max-width: 500px;
+  background-color: #fa7452;
+}
+
+body {
+  background-color: #ffe099;
+  font-family: Fira Sans;
+}
+
+.heading {
+  font-family: Avro;
+  font-size: 42px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: black;
+}
+
+.menu {
+  font-size: 18px;
+  padding: 10px 40px 0 40px;
+}
+
+.button:hover {
+  animation-name: change-color;
+  animation-duration: 0.5s;
+  cursor: pointer;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.streams-box {
+  padding: 20px 50px 50px 50px
+}
+
+.stream {
+  padding-top: 5px;
+  background-color: white;
+  text-align: left;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-bottom: 50px;
+  height: 120px;
+}
+
+@keyframes change-color {
+  0% {
+    background-color: #fa7452;
+  }
+  100% {
+    background-color: #6666ff;
+  }
