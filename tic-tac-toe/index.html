@@ -1,79 +1,82 @@
 <!DOCTYPE html>
-<html >
+<html>
+
 <head>
   <meta charset="UTF-8">
   <title>Tic Tac Toe</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css'>
 
-      <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">
 
-  
+
 </head>
 
 <body>
   <div class="main"><br><br><br><br>
-  <div id="card" class="card-panel">
-    <div class="row">
-      <div id="0" class="space top left waves-effect waves-orange"></div>
-      <div id="1" class="space top waves-effect waves-orange"></div>
-      <div id="2" class="space top right waves-effect waves-orange"></div>
+    <div id="card" class="card-panel">
+      <div class="row">
+        <div id="0" class="space top left waves-effect waves-orange"></div>
+        <div id="1" class="space top waves-effect waves-orange"></div>
+        <div id="2" class="space top right waves-effect waves-orange"></div>
+      </div>
+      <div class="row">
+        <div id="3" class="space left waves-effect waves-orange"></div>
+        <div id="4" class="space waves-effect waves-orange"></div>
+        <div id="5" class="space right waves-effect waves-orange"></div>
+      </div>
+      <div class="row">
+        <div id="6" class="space bottom left waves-effect waves-orange"></div>
+        <div id="7" class="space bottom waves-effect waves-orange"></div>
+        <div id="8" class="space bottom right waves-effect waves-orange"></div>
+      </div>
     </div>
-    <div class="row">
-      <div id="3" class="space left waves-effect waves-orange"></div>
-      <div id="4" class="space waves-effect waves-orange"></div>
-      <div id="5" class="space right waves-effect waves-orange"></div>
-    </div>
-    <div class="row">
-      <div id="6" class="space bottom left waves-effect waves-orange"></div>
-      <div id="7" class="space bottom waves-effect waves-orange"></div>
-      <div id="8" class="space bottom right waves-effect waves-orange"></div>
-    </div>
-  </div>
 
-  <div id="modal-start" class="modal">
-    <div class="modal-content">
-      <h4>Can you beat me at Tic Tac Toe?</h4>
-      <p>I'll make it easy for you. You get to choose X's or O's.</p>
+    <div id="modal-start" class="modal">
+      <div class="modal-content">
+        <h4>Can you beat me at Tic Tac Toe?</h4>
+        <p>I'll make it easy for you. You get to choose X's or O's.</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="O modal-action modal-close waves-effect waves-orange btn-flat">O's</a> <a href="#!" class="X modal-action modal-close waves-effect waves-orange btn-flat">X's</a>
+      </div>
     </div>
-    <div class="modal-footer">
-      <a href="#!" class="O modal-action modal-close waves-effect waves-orange btn-flat">O's</a> <a href="#!" class="X modal-action modal-close waves-effect waves-orange btn-flat">X's</a>
-    </div>
-  </div>
 
-  <div id="modal-win" class="modal">
-    <div class="modal-content">
-      <h4>You won!</h4>
-      <p>Well done. Another Game?</p>
+    <div id="modal-win" class="modal">
+      <div class="modal-content">
+        <h4>You won!</h4>
+        <p>Well done. Another Game?</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-orange btn-flat">Okay</a>
+      </div>
     </div>
-    <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-orange btn-flat">Okay</a>
+    <div id="modal-lose" class="modal">
+      <div class="modal-content">
+        <h4>You lost!</h4>
+        <p>Better luck next time. Another Game?</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-orange btn-flat">Okay</a>
+      </div>
+    </div>
+    <div id="modal-tie" class="modal">
+      <div class="modal-content">
+        <h4>It's a tie!</h4>
+        <p>It seems we are evenly matched. Another Game?</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-orange btn-flat">Okay</a>
+      </div>
     </div>
   </div>
-  <div id="modal-lose" class="modal">
-    <div class="modal-content">
-      <h4>You lost!</h4>
-      <p>Better luck next time. Another Game?</p>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-orange btn-flat">Okay</a>
-    </div>
-  </div>
-  <div id="modal-tie" class="modal">
-    <div class="modal-content">
-      <h4>It's a tie!</h4>
-      <p>It seems we are evenly matched. Another Game?</p>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-orange btn-flat">Okay</a>
-    </div>
-  </div>
-</div>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js'></script>
 
-    <script  src="js/index.js"></script>
-
+  <script src="js/index.js"></script>
+  <br><br><br><br>
+  <div style="text-align: center;"><a style="color: black;" href="../">Back to showcase</a></div>
 </body>
+
 </html>

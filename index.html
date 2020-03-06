@@ -1,357 +1,199 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Frontend Development Showcase</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="w3.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Frontend Showcase</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-<style>
-html {
-  scroll-behavior: smooth;
-}
-img {
-  width: 100%;
-  height: auto;
-  max-width: 500px;
-}
-</style>
+  <style>
+    body {
+      background: linear-gradient(130deg, midnightblue, indigo, blueviolet, violet);
+    }
 
+    img {
+      width: 100%;
+      height: auto;
+      max-width: 500px;
+    }
+  </style>
 </head>
+
 <body>
-<div class="w3-sidebar w3-bar-block w3-card w3-collapse"
-style="width:250px" id="sidebar">
-  <button class="w3-bar-item w3-button w3-hide-large"
-  onclick="closeSidebar()">Close &times;</button>
-  <a href="#" class="w3-bar-item w3-button w3-dark-gray">Top of Page</a>
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <div class="card hoverable">
+          <div class="card-content">
+            <div class="section">
+              <h2 class="center-align">Frontend Development Showcase</h2>
+            </div>
+            <div class="divider"></div>
+            <div class="section">
+              <p>
+                This is a collection of frontend projects I made while learning to code.
+                Check out the <a href="https://github.com/christopher-siewert/frontend-showcase">Github</a> repo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="card hoverable">
+          <div class="card-content">
+            <h4 class="center-align">Dungeon Crawler</h4>
+            <div class="divider"></div>
+            <div class="section">
+              <p>This is a rouge like dungeon crawler role playing game. Use the arrows on the keyboard to move around.</p>
+              <br>
+              <p>Red squares are enemies, yellow squares are better weapons, and green squares give you more health.
+                Bump into an enemy to attack it. Make your way through the maze to find the final boss in the flashing room.</p>
+              <br>
+            </div>
+            <div class="center-align">
+              <a href="dungeon-crawler/">
+                <img src="dungeon-crawler/snip.png" alt="dungeon-crawler">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="card hoverable">
+          <div class="card-content">
+            <h4 class="center-align">Game of Life</h4>
+            <div class="divider"></div>
+            <div class="section">
+              <p>
+                This is a simulation called <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's Game of Life</a>
+                after the mathematician who invented it.
+              </p><br>
+              <p>
+                The cells flip on or off, (alive or dead) based off of how many cells around them are on.
+                It is meant to simulate a bacterial colony. If a cell has too many neighboring cells
+                that are also alive, it dies due to overpopulation. But if a cell has too few neighbors, it
+                dies as it can't reproduce.
+              </p><br>
+              <p>
+                Try making a <a href="https://en.wikipedia.org/wiki/Glider_(Conway%27s_Life)">glider</a> for good fun.
+                Press the pause button then click on the cells to toggle them on and off.
+              </p><br>
+            </div>
+            <div class="center-align">
+              <a href="game-of-life/">
+                <img src="game-of-life/snip.png" alt="game-of-life">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="card hoverable">
+          <div class="card-content">
+            <h4 class="center-align">Simon Game</h4>
+            <div class="divider"></div>
+            <div class="section">
+              <p>This game will test your memory! Remember the order of the flashing squares.
+                And if it's too easy, enable strict mode to restart from the beginning if you
+                make even one mistake</p><br>
+            </div>
+            <div class="center-align">
+              <a href="simon-game/">
+                <img src="simon-game/snip.png" alt="simon-game">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="card hoverable">
+          <div class="card-content">
+            <h4 class="center-align">Tic-Tac-Toe</h4>
+            <div class="divider"></div>
+            <div class="section">
+              <p>Play tic-tac-toe against the computer! And unfortunately, you will <i>never</i> be able to win.</p><br>
+            </div>
+            <div class="center-align">
+              <a href="tic-tac-toe/">
+                <img src="tic-tac-toe/snip.png" alt="tic-tac-toe">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="card hoverable">
+          <div class="card-content">
+            <h4 class="center-align">Random Quote Generator</h4>
+            <div class="divider"></div>
+            <div class="section">
+              <p>Fetches a random inspirational quotes.</p><br>
+            </div>
+            <div class="center-align">
+              <a href="random-quote-generator/">
+                <img src="random-quote-generator/snip.png" alt="Random Quote Site">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="card hoverable">
+          <div class="card-content">
+            <h4 class="center-align">Calculator App</h4>
+            <div class="divider"></div>
+            <div class="section">
+              <p>Simple calculator. Great aesthetic.</p><br>
+            </div>
+            <div class="center-align">
+              <a href="calculator-app/">
+                <img src="calculator-app/snip.png" alt="calculator-app">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="card hoverable">
+          <div class="card-content">
+            <h4 class="center-align">GitHub Flavoured Markdown Preview</h4>
+            <div class="divider"></div>
+            <div class="section">
+              <p>
+                Simple app to live view github flavoured markdown in your browser.
+              </p><br>
+            </div>
+            <div class="center-align">
+              <a href="markdown-preview/">
+                <img src="markdown-preview/snip.png" alt="markdown-preview">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  <button class="w3-button w3-block w3-left-align w3-dark-gray" onclick="accordian('html')">
-  Simple Beginnings <i class="fa fa-caret-down"></i>
-  </button>
-  <div id="html" class="w3-hide w3-white w3-animate-left">
-    <a href="#bill-watterson-tribute-page" class="w3-bar-item w3-button">Bill Watterson Tribute Page</a>
-    <a href="#random-quote-generator" class="w3-bar-item w3-button">Random Quote Generator</a>
-    <a href="#wiki-search" class="w3-bar-item w3-button">Wiki Search</a>
-    <a href="#twitch-fan-site" class="w3-bar-item w3-button">Twitch Fan Site</a>
-  </div>
-  <button class="w3-button w3-block w3-left-align w3-dark-gray" onclick="accordian('js')">
-  Advanced JavaScript <i class="fa fa-caret-down"></i>
-  </button>
-  <div id="js" class="w3-hide w3-white w3-animate-left">
-    <a href="#calculator-app" class="w3-bar-item w3-button">Calculator App</a>
-    <a href="#pomodoro-clock" class="w3-bar-item w3-button">Pomodoro Clock</a>
-    <a href="#tic-tac-toe" class="w3-bar-item w3-button">Tic-Tac-Toe</a>
-    <a href="#simon-game" class="w3-bar-item w3-button">Simon Game</a>
-  </div>
-  <button class="w3-button w3-block w3-left-align w3-dark-gray" onclick="accordian('react')">
-  React <i class="fa fa-caret-down"></i>
-  </button>
-  <div id="react" class="w3-hide w3-white w3-animate-left">
-    <a href="#markdown-preview" class="w3-bar-item w3-button">GitHub Markdown Preview</a>
-    <a href="#recipe-box" class="w3-bar-item w3-button">Recipe Box</a>
-    <a href="#game-of-life" class="w3-bar-item w3-button">Conway's Game of Life</a>
-    <a href="#dungeon-crawler" class="w3-bar-item w3-button">Dungeon Crawler Game</a>
-  </div>
-  <button class="w3-button w3-block w3-left-align w3-dark-gray" onclick="accordian('d3')">
-  D3 <i class="fa fa-caret-down"></i>
-  </button>
-  <div id="d3" class="w3-hide w3-white w3-animate-left">
-    <a href="#bar-graph" class="w3-bar-item w3-button">Bar Graph Data Visualization</a>
-    <a href="#scatter-plot" class="w3-bar-item w3-button">Scatter Plot Data Visualization</a>
-  </div>
-  <a href="#bottom" class="w3-bar-item w3-button w3-dark-gray">Bottom of Page</a>
-  <a href="https://github.com/christopher-siewert/frontend-showcase" class="w3-bar-item w3-button w3-green">GitHub Repo</a>
-  <br><br><br><br>
-</div>
-
-<div class="w3-main" id="main" style="margin-left:250px">
-
-<div class="w3-black">
-  <button class="w3-button w3-xlarge w3-hide-large"
-  onclick="openSidebar()">&#9776;</button>
-  <div class="w3-container">
-    <h1>Frontend Development Showcase</h1>
-  </div>
-</div>
-<div class="w3-container w3-deep-purple">
-<div class="w3-container w3-padding-16">
-  <div class ="w3-panel w3-white w3-card-4">
-  <p>
-    In 2016, I wanted to learn programming. So for 3 weeks I went on a coding spree and went from being basically a beginner to
-    building a bunch of really cool front end web projects.
-    All the following projects were built within 21 days from September 21, 2016 to October 12, 2016.
-    This is a little journey through my process.
-    I learned everything here by following the curriculum at <a href="https://www.freecodecamp.org">Free Code Camp</a>.
-  </p>
-  <p>
-    All the code can be found in the
-    <a href="https://github.com/christopher-siewert/frontend-showcase">GitHub repo</a>
-    for this site.
-  </p>
-</div>
-</div>
-<div class="w3-card-4 w3-white w3-margin" id="bill-watterson-tribute-page">
-  <div class="w3-container">
-    <h3>Bill Watterson Tribute Page</h3>
-    <p>My very first website. It only had simple HTML and CSS, but still took me hours to get right.</p>
-  </div>
-  <div class="w3-container w3-center w3-padding-24">
-    <a href="bill-watterson-tribute-page/">
-    <img class="images" src="bill-watterson-tribute-page/snip.png" alt="Bill Watterson" width="600" height="400">
-    </a>
-  </div>
-</div>
-<br>
-<div class="w3-card-4 w3-white w3-margin" id="random-quote-generator">
-  <div class="w3-container">
-    <h3>Random Quote Generator</h3>
-    <p>My second website. It generates a new quote every time you hit a button.
-      It's here that I started playing around with JavaScript,
-      using jQuery to call an API and manipulate the DOM.
-    </p>
-    <p>I was so proud of that CSS color shift animation.</p>
-  </div>
-  <div class="w3-container w3-center w3-padding-24">
-    <a href="random-quote-generator/">
-    <img src="random-quote-generator/snip.png" alt="Random Quote Site">
-    </a>
-  </div>
-</div>
-<br>
-<div class="w3-card-4 w3-white w3-margin" id="wiki-search">
-  <div class="w3-container">
-    <h3>Wiki Search</h3>
-    <p>This site took a little more JavaScript and CSS.
-      It was tough figuring out how to loop through the search results and have them be properly formatted.</p>
-  </div>
-  <div class="w3-container w3-center w3-padding-24">
-    <a href="wiki-search/">
-    <img src="wiki-search/snip.png" alt="Wiki Search Site">
-    </a>
-  </div>
-</div>
-<br>
-<div class="w3-card-4 w3-white w3-margin" id="twitch-fan-site">
-  <div class="w3-container">
-    <h3>Twitch Fan Site</h3>
-    <p>It takes a whole whopping 57 lines of JavaScript to power this baby.
-      It's here that I started doing things like error checking when fetching
-      data from an API.</p>
-  </div>
-  <div class="w3-container w3-center w3-padding-24">
-    <a href="twitch-fan-site/">
-    <img src="twitch-fan-site/snip.png" alt="Twitch Fan Site">
-    </a>
-  </div>
-</div>
-<br>
-<div class="w3-card-4 w3-white w3-margin" id="calculator-app">
-  <div class="w3-container">
-    <h3>Calculator App</h3>
-    <p>I still love the aesthetic of this one.
-      It was around here that I discovered the materialize CSS framework,
-      which I liked way more than bootstrap.</p>
-  </div>
-  <div class="w3-container w3-center w3-padding-24">
-    <a href="calculator-app/">
-    <img src="calculator-app/snip.png" alt="calculator-app">
-    </a>
-  </div>
-</div>
-<br>
-<div class="w3-card-4 w3-white w3-margin" id="pomodoro-clock">
-  <div class="w3-container">
-    <h3>Pomodoro Clock</h3>
-    <p>This is a little clock utility. When you are procrastinating, starting is the
-      hardest part. Once you are working, most people get into the flow of things
-      and don't mind work so much. But starting is killer. So you trick yourself
-      into starting by promising to only work for a short amount of time (say 25 minutes), then
-      giving yourself a break. Breaking work into 25 minute segments is called the
-      <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique">Pomodoro Technique</a>.</p>
-  </div>
-  <div class="w3-container w3-center w3-padding-24">
-    <a href="pomodoro-clock/">
-    <img src="pomodoro-clock/snip.png" alt="pomodoro-clock">
-    </a>
-  </div>
-</div>
-<br>
-<div class="w3-card-4 w3-white w3-margin" id="tic-tac-toe">
-  <div class="w3-container">
-    <h3>Tic-Tac-Toe</h3>
-    <p>Play tic-tac-toe against the computer! And unfortunately, you will <i>never</i> be able to win.</p>
-    <p>
-      My JavaScript skills really improved while coding this.
-      This was my first attempt at algorithmic thinking. I had to plot out the moves, and come up with
-      an easy to code strategy that would always win or tie.
-    </p>
-    <p>I also included some cool new CSS features, like modal dialog boxes.</p>
-  </div>
-  <div class="w3-container w3-center w3-padding-24">
-    <a href="tic-tac-toe/">
-    <img src="tic-tac-toe/snip.png" alt="tic-tac-toe">
-    </a>
-  </div>
-</div>
-<br>
-<div class="w3-card-4 w3-white w3-margin" id="simon-game">
-  <div class="w3-container">
-    <h3>Simon Game</h3>
-    <p>This game will test your memory! Remember the order of the flashing squares.
-    And if it's too easy, enable strict mode to restart from the beginning if you
-    make even one mistake</p>
-  </div>
-  <div class="w3-container w3-center w3-padding-24">
-    <a href="simon-game/">
-    <img src="simon-game/snip.png" alt="simon-game">
-    </a>
-  </div>
-</div>
-<br>
-<div class="w3-card-4 w3-white w3-margin" id="markdown-preview">
-  <div class="w3-container">
-    <h3>GitHub Markdown Preview</h3>
-    <p>
-      This was my first React app. Quite a step up from just using jQuery to do DOM manipulation.
-      I also used newer ES6 JavaScript features in my code, which I compiled to
-      backwards compatible JavaScript using Babel.
-      Along with starting to use Sass for CSS preprocessing,
-      I had to learn a lot of new tools at this point.
-    </p>
-  </div>
-  <div class="w3-container w3-center w3-padding-24">
-    <a href="markdown-preview/">
-    <img src="markdown-preview/snip.png" alt="markdown-preview">
-    </a>
-  </div>
-</div>
-<br>
-<div class="w3-card-4 w3-white w3-margin" id="recipe-box">
-  <div class="w3-container">
-    <h3>Recipe Box</h3>
-    <p>
-      Another React app, this time accessing the browser's local storage to
-      store user input across sessions.
-    </p>
-  </div>
-  <div class="w3-container w3-center w3-padding-24">
-    <a href="recipe-box/">
-    <img src="recipe-box/snip.png" alt="recipe-box">
-    </a>
-  </div>
-</div>
-<br>
-<div class="w3-card-4 w3-white w3-margin" id="game-of-life">
-  <div class="w3-container">
-    <h3>Game of Life</h3>
-    <p>
-      This is a simulation called <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's Game of Life</a>
-      after the mathematician who invented it.
-    </p>
-    <p>
-      The cells flip on or off, (alive or dead) based off of how many cells around them are on.
-      It is meant to simulate a bacterial colony. If a cell has too many neighboring cells
-      that are also alive, it dies due to overpopulation. But if a cell has too few neighbors, it
-      dies as it can't reproduce.
-    </p>
-    <p>
-      Try making a <a href="https://en.wikipedia.org/wiki/Glider_(Conway%27s_Life)">glider</a> for good fun.
-      Press the pause button then click on the cells to toggle them on and off.
-    </p>
-    <p>
-      This project really shows the strength of React. Having each cell manage it's own state based on event calls
-      really simplifies the code.
-    </p>
-  </div>
-  <div class="w3-container w3-center w3-padding-24">
-    <a href="game-of-life/">
-    <img src="game-of-life/snip.png" alt="game-of-life">
-    </a>
-  </div>
-</div>
-<br>
-<div class="w3-card-4 w3-white w3-margin" id="dungeon-crawler">
-  <div class="w3-container">
-    <h3>Dungeon Crawler</h3>
-    <p>This is a rouge like dungeon crawler role playing game. Use the arrows on the keyboard to move around.</p>
-    <p>Red squares are enemies, yellow squares are better weapons, and green squares give you more health.
-    Bump into an enemy to attack it. Make your way through the maze to find the final boss in the flashing room.</p>
-    <p>At almost 500 lines of React JavaScript goodness, this project took some serious work.</p>
-  </div>
-  <div class="w3-container w3-center w3-padding-24">
-    <a href="dungeon-crawler/">
-    <img src="dungeon-crawler/snip.png" alt="dungeon-crawler">
-    </a>
-  </div>
-</div>
-<br>
-<div class="w3-card-4 w3-white w3-margin" id="bar-graph">
-  <div class="w3-container">
-    <h3>D3 Bar Graph</h3>
-    <p>I now took a break from React and looked for other interesting front end frameworks.
-      D3 caught my eye, with it's ability to do really cool data visualization.
-      This is a quick demo of a bar graph; try hovering over each bar to see more info.
-    </p>
-  </div>
-  <div class="w3-container w3-center w3-padding-24">
-    <a href="bar-graph/">
-    <img src="bar-graph/snip.png" alt="bar-graph">
-    </a>
-  </div>
-</div>
-<br>
-<div class="w3-card-4 w3-white w3-margin" id="scatter-plot">
-  <div class="w3-container">
-    <h3>D3 Scatter Plot</h3>
-    <p>Another D3 demo, hover over each data point for more info.</p>
-  </div>
-  <div class="w3-container w3-center w3-padding-24">
-    <a href="scatter-plot/">
-    <img src="scatter-plot/snip.png" alt="scatter-plot">
-    </a>
-  </div>
-</div>
-<br>
-<div class="w3-panel w3-margin w3-white w3-light-blue w3-card-4" id="bottom">
-  <h1>That's All Folks!</h1>
-  <p>
-    After such a fast paced learning binge I took a break from learning front end development.
-    But the whole experience was a blast. I loved it all: from the late nights spent researching why my code wasn't working
-    like I expected, to the pride I got when I could show my family and friends what I had made.
-  </p>
-  <p>
-    Check out the <a href="https://github.com/christopher-siewert/frontend-showcase">GitHub repo</a>
-    for this site or my
-    <a href="https://github.com/christopher-siewert/">GitHub profile</a>
-    to see what else I've been working on.
-  </p>
-</div>
-<br><br><br><br><br><br><br><br>
-</div>
-
-</div>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 
 <script>
-function accordian(elementId) {
-  var x = document.getElementById(elementId);
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-    x.previousElementSibling.className += " w3-black";
-  } else {
-    x.className = x.className.replace(" w3-show", "");
-    x.previousElementSibling.className =
-    x.previousElementSibling.className.replace(" w3-black", "");
-  }
-}
-function openSidebar() {
-  document.getElementById("sidebar").style.display = "block";
-}
-
-function closeSidebar() {
-  document.getElementById("sidebar").style.display = "none";
-}
+  M.AutoInit();
 </script>
 
 </html>
