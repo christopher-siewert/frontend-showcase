@@ -7,3 +7,21 @@
 .spacer {
   height: 10px
 }
+
+#link {
+  color: #0645AD;
+  text-decoration: none;
+}
+
+#link:hover {
+  text-decoration: underline;
+}
+
+#link:active {
+  text-decoration: underline;
+}
+
+#link:visited {
+  color: #0645AD;
+  text-decoration: none;
+}
